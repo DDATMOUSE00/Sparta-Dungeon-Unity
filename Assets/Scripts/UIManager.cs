@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
     public GameObject ButtonUI2;
     public GameObject StausUI;
     public GameObject InventoryUI;
+    public GameObject EQUI;
 
     public void StatusClick()
     {
@@ -37,4 +38,15 @@ public class UIManager : MonoBehaviour
         ButtonUI1.SetActive(true);
         ButtonUI2.SetActive(true);
     }
+    public void EQYes()
+    {
+        Debug.Log("ÀåÂøÃ¢ ¿­±â");
+        EQUI.SetActive(true);
+    }
+    public void EQNo()
+    {
+        Debug.Log("ÀåÂøÃ¢ ´Ý±â");
+        EQUI.SetActive(false);
+    }
+
 }
